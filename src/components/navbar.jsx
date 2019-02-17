@@ -6,9 +6,10 @@ class Nav extends Component {
         <div className= "inner">
             <a href="./index.html"><img src="./Logo/Logobrainflix.svg" alt="logo"/></a>
             <nav>
+                <input type="search" name="" id=""placeholder="Search"/>
                 <ul>
-                    <li className="active"><a href="#">Biography</a></li>
-                    <li><a href="./shows.html">Shows</a></li>
+                    <button><img src="./plus.svg" alt=""/><p>UPLOAD</p></button>
+                    <img className="usericon" src="./Images/Mohan-muruge.jpg" alt="User"/>
                 </ul>
             </nav>
         </div>
