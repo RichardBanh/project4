@@ -401,6 +401,12 @@ a {
 button.form {
   margin-top: 24px;
   width: 300px;
+  height: 75px;
+  padding-bottom: 0px;
+  border-bottom-width: 0px;
+  padding-top: 0px;
+  border-top-width: 0px;
+  background-color: #0095FF;
 }
 
 form h4 {
@@ -545,7 +551,7 @@ td button, button {
   border-radius: 4px;
   background-color: #0065AD;
   color: #FAFAFA;
-  font-size: .85em;
+  font-size: 23px;
 }
 
 button:hover {
