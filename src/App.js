@@ -14,7 +14,7 @@ class App extends Component {
         <Video />
         <Videotitle mainVideo = {this.props.mainVideo[0]} />
         <Form />
-        <CommentL mainVideo= {this.props.mainVideo[0].comments[0]}/>
+        <CommentL mainVideo= {this.props.mainVideo[0]}/>
       </div>
     );
     }  
