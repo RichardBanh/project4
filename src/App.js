@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import Nav from './components/navbar';
 import Video from './components/video';
-import Comments from './components/comments.jsx'
-
+import Videotitle from './components/videotitle.jsx'
+import Form from './components/form';
 class App extends Component {
   render() {
-    console.log(this.props);
+    console.log(this.props.mainVideo[0]);
     return (
       <div >
         <Nav />
         <Video />
-        <Comments mainVideo = {this.props.mainVideo} />
+        <Videotitle mainVideo = {this.props.mainVideo[0]} />
+        <Form />
       </div>
     );
     }  
