@@ -9,12 +9,12 @@ class App extends Component {
   render() {
     console.log(this.props.mainVideo[0]);
     return (
-      <div >
+      <div>
         <Nav />
         <Video />
         <Videotitle mainVideo = {this.props.mainVideo[0]} />
         <Form />
-        <CommentL mainVideo= {this.props.mainVideo[0]}/>
+        <CommentL comments = {this.props.mainVideo[0].comments}/>
       </div>
     );
     }  

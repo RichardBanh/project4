@@ -4,11 +4,6 @@ class Videotitle extends Component {
  
  render() {
   var mainpath = this.props.mainVideo
-  console.log(mainpath.likes)
-  console.log(mainpath.title)
-  console.log(mainpath.views)
-  console.log(mainpath.timestamp)
-  console.log(mainpath.description)
   return (
    <div className='videotitle'>
     <h1>{mainpath.title}</h1>

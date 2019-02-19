@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import Comment from './comments.jsx'
-
+import Comment from './comment'
 class CommentL extends Component {
  render() { 
-   console.log(this.props.mainVideo.comment)
- const commentList = this.props.mainVideo.Map(comment =>{
-  return <Comment date= {comment.date} name ={comment.name} comment={comment.comment} />
-})
+  console.log(this.props.comments)
+
+
   return ( 
-   <div className='commentpicture'>
-     {commentList}
+   <div>
+   <Comment comment={this.props.comments}/>
    </div>
    );
 
