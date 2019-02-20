@@ -747,7 +747,7 @@ video {
 
 @media (min-width: 1000px) {
   .VideoSec video {
-    height: 500px;
+    height: 540px;
   }
   .flexing2 {
     display: -webkit-box;
