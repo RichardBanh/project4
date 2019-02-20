@@ -14,9 +14,9 @@ class Form extends Component {
                <h4>JOIN THE CONVERSATION</h4>
                <textarea id="comment" type="text" name="comment-section"></textarea>
                <br/>
-               <button className="form">COMMENT</button>
            </form>
          </div>
+         <button className="form">COMMENT</button>
       </div>
    </div>
     );

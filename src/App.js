@@ -13,10 +13,15 @@ class App extends Component {
       <div>
         <Nav />
         <Video />
-        <Videotitle mainVideo = {this.props.mainVideo[0]} />
-        <Form comlength = {this.props.mainVideo[0].comments}/>
-        <CommentL comments = {this.props.mainVideo[0].comments}/>
-        <Videolist sugs = {this.props.sideVideo}/>
+        
+        <div className="flexing2">
+          <div>
+            <Videotitle mainVideo = {this.props.mainVideo[0]} />
+            <Form comlength = {this.props.mainVideo[0].comments}/>
+            <CommentL comments = {this.props.mainVideo[0].comments}/>
+          </div>
+          <Videolist sugs = {this.props.sideVideo}/>
+        </div>
       </div>
     );
     }  

@@ -7,7 +7,7 @@ class Videotitle extends Component {
   return (
    <div className='videotitle'>
     <h1>{mainpath.title}</h1>
-    <div>
+    <div className='flexing'>
      <h3>By {mainpath.id}<span>{mainpath.timestamp}</span></h3>
      <div className='likesviews'>
       <div className="views">
@@ -19,8 +19,8 @@ class Videotitle extends Component {
        <h4>{mainpath.likes}</h4>
       </div>
      </div>
-     <div className="divbox">
      </div>
+     <div className="divbox">
     </div>
     <p>{mainpath.description}</p>
    </div>

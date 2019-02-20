@@ -5,8 +5,8 @@ class Videolist extends Component {
  render() { 
    console.log(this.props.sugs)
   return ( 
-   <div>
-   <Video sugs={this.props.sugs} />
+   <div className="flexing1">
+    <Video sugs={this.props.sugs} />
    </div>
    );
  }
