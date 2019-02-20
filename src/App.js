@@ -4,6 +4,7 @@ import Video from './components/video';
 import Videotitle from './components/videotitle.jsx'
 import Form from './components/form';
 import CommentL from './components/commentlist.jsx'
+import Videolist from './components/videolist.jsx'
 
 class App extends Component {
   render() {
@@ -13,8 +14,9 @@ class App extends Component {
         <Nav />
         <Video />
         <Videotitle mainVideo = {this.props.mainVideo[0]} />
-        <Form />
+        <Form comlength = {this.props.mainVideo[0].comments}/>
         <CommentL comments = {this.props.mainVideo[0].comments}/>
+        <Videolist sugs = {this.props.sideVideo}/>
       </div>
     );
     }  

@@ -292,6 +292,11 @@ a{
 /*--- Comment Section ---*/
 .comment-section {
     width: 100%;
+    margin-top:30px;
+
+    h2{
+        padding-left:20px;
+    }
 }
 
 .comment-section h1 {
@@ -306,7 +311,7 @@ a{
     margin-right:2.5%;
     display: flex;
     justify-content: center;
-    margin-top: 56px;
+    margin-top: 30px;
     padding-bottom: 32px;
     border-bottom: 1px solid #E1E1E1;
 
@@ -323,7 +328,6 @@ a{
 
 .nameandphoto {
     display: flex;
-    margin-right: 30px;
 
 }
 
@@ -489,3 +493,38 @@ button:hover {
     background-color: $brainflix-primary-ctahover;
 }
 /*--- Responsive ---*/
+
+
+/*--- video suggested ---*/
+.titlesimg {
+    display: flex;
+    justify-content: center;
+    img{
+        height:70px;
+        width:120px;
+        border-radius: 7px;
+        margin-bottom:15px;
+    }
+
+    .titles{
+        width: 200px;
+        padding-left: 16px;
+        display: flex;
+        flex-direction: column;
+        h4 {
+            margin-bottom :4px;
+        }
+        h5 {
+            font-weight: normal;
+        }
+    }
+}
+
+.boop {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left:50px; 
+
+}
+
+

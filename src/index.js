@@ -4,6 +4,56 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const sideVideo = [{
+ id: 'Scotty Cranmer', 
+ title: 'Become A Travel Pro In One Easy Lesson...', 
+ channel: '', 
+ image: './Images/video-list-0.jpg' 
+},
+{
+ id: 'Scotty Cranmer', 
+ title: 'Les Houches The Hidden Gem Of The...', 
+ channel: '', 
+ image: './Images/video-list-2.jpg' 
+},
+{
+ id: 'Scotty Cranmer', 
+ title: 'Travel Health Useful Medical Information...', 
+ channel: '', 
+ image: './Images/video-list-3.jpg' 
+},
+{
+ id: 'Emily Harper', 
+ title: 'Cheap Airline Tickets Great Ways To Save', 
+ channel: '', 
+ image: './Images/video-list-4.jpg' 
+},
+{
+ id: 'Ethan Owen', 
+ title: 'Take A Romantic Break In A Boutique Hotel', 
+ channel: '', 
+ image: './Images/video-list-5.jpg' 
+},
+{
+ id: 'Lydia Perez', 
+ title: 'Choose The Perfect Accommodations', 
+ channel: '', 
+ image: './Images/video-list-6.jpg' 
+},
+{
+ id: 'Timothy Austin', 
+ title: 'Cruising Destination Ideas', 
+ channel: '', 
+ image: './Images/video-list-7.jpg' 
+},
+{
+ id: 'Scotty Cranmer', 
+ title: 'Train Travel On Track For Safety', 
+ channel: '', 
+ image: './Images/video-list-8.jpg' 
+}
+];
+
 const mainVideo = [{
  id: 'Red Cow',
  title:" BMX Rampage: 2018 Highlights",
@@ -36,7 +86,7 @@ const mainVideo = [{
  },
  ];
 
-ReactDOM.render(<App mainVideo={mainVideo}/>, document.getElementById('root'));
+ReactDOM.render(<App mainVideo={mainVideo} sideVideo={sideVideo}/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

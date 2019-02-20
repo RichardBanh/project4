@@ -16,7 +16,6 @@ class Comment extends Component {
       </div>
     )
   })
-  console.log(comlist)
   return (
     <div>
       {comlist}
